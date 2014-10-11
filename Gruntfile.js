@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 		},
 		uglify: {
 			options: {
-				banner: '/*! <%= pkg.name %> - v<%= pkg.version %> (<%= pkg.homepage %>) */\n',
+				banner: '/*! <%= pkg.name %> - v<%= pkg.version %> (<%= pkg.homepage %>) */',
 				mangle: false
 			},
 			main: {
@@ -32,7 +32,7 @@ module.exports = function (grunt) {
 		},
 		cssmin: {
 			options: {
-				banner: '/*! <%= pkg.name %> - v<%= pkg.version %> (<%= pkg.homepage %>) */\n'
+				banner: '/*! <%= pkg.name %> - v<%= pkg.version %> (<%= pkg.homepage %>) */'
 			},
 			minify:{
 				files: {
@@ -106,9 +106,9 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-html-build');
 
-	grunt.registerTask('build', ['jshint', 'browserify', 'uglify', 'compass']);
-	grunt.registerTask('start:dev', ['build', 'connect:dev', 'watch']);
+	grunt.registerTask('dev', ['jshint', 'browserify', 'uglify', 'compass']);
+	grunt.registerTask('start:dev', ['dev', 'connect:dev', 'watch']);
 
-	grunt.registerTask('dist', ['build', 'cssmin', 'htmlbuild', 'copy']);
-	grunt.registerTask('start:prod', ['dist', 'connect:prod']);
+	grunt.registerTask('dist', ['dev', 'cssmin', 'htmlbuild', 'copy']);
+	grunt.registerTask('start:dist', ['dist', 'connect:dist', 'watch']);
 };

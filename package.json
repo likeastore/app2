@@ -1,6 +1,7 @@
 {
-  "name": "app2",
-  "version": "0.0.0",
+  "name": "likeastore-app-2",
+  "version": "0.0.1",
+  "homepage": "https://likeastore.com",
   "description": "New look on Likeastore dashboard",
   "main": "index.js",
   "dependencies": {
