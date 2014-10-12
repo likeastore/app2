@@ -2,9 +2,22 @@
 @import "../css/fontello/css/fontello.css";
 
 @import "main-menu";
+@import "empty-feed";
+@import "buttons";
 
 body {
 	font-family: 'Hind', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
+}
+
+.content {
+	margin-left: 180px;
+
+	.wrapper {
+		display: block;
+		position: relative;
+		width: 900px;
+		margin: 0 auto;
+	}
 }

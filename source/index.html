@@ -6,10 +6,10 @@
 	<title>Likeastore</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="shortcut icon" href="images/logo.png" />
+	<link rel="apple-touch-icon" href="images/logo.png"/>
 	<link rel="stylesheet" href="css/main.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Hind:300,700' rel='stylesheet' type='text/css'>
 
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -24,24 +24,38 @@
 </p>
 <![endif]-->
 
-	<section class="main-menu">
-		<div class="wrapper">
-			<ul class="menu-primary menu-group">
-				<li><a href="feed" class="current"><i class="icon-feed"></i> Feed</a></li>
-				<li><a href="search"><i class="icon-search"></i> Search</a></li>
-				<li><a href="connections"><i class="icon-connections"></i> Connections</a></li>
-				<li><a href="favorites"><i class="icon-favorites"></i> Favorites</a></li>
-				<li><a href="collections"><i class="icon-collections"></i> Collections</a></li>
-			</ul>
+	<div class="page">
+		<section class="main-menu">
+			<div class="wrapper">
+				<ul class="menu-primary menu-group">
+					<li><a href="feed" class="current"><i class="icon-feed"></i> Feed</a></li>
+					<li><a href="search"><i class="icon-search"></i> Search</a></li>
+					<li><a href="connections"><i class="icon-connections"></i> Connections</a></li>
+				</ul>
 
-			<ul class="menu-additional menu-group">
-				<li><a href="account"><i class="icon-account"></i> Account</a></li>
-				<li><a href="signout"><i class="icon-signout"></i> Sigout</a></li>
-			</ul>
-		</div>
-	</section>
+				<ul class="menu-social menu-group">
+					<li><a href="favorites"><i class="icon-favorites"></i> Favorites</a></li>
+					<li><a href="collections"><i class="icon-collections"></i> Collections</a></li>
+					<li><a href="topics"><i class="icon-topics"></i> Topics</a></li>
+				</ul>
 
-	<section class="content" ui-view></section>
+				<ul class="menu-additional menu-group">
+					<li><a href="account"><i class="icon-account"></i> Account</a></li>
+					<li><a href="signout"><i class="icon-signout"></i> Sigout</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="content container-fluid" ui-view>
+			<div class="wrapper">
+				<div class="empty-feed row">
+					<h1 class="message">You feed is currently empty, pickup interesting topics.</h1>
+					<button class="btn btn-xlg btn-green">Go to topics</button>
+				</div>
+			</div>
+		</section>
+
+	</div>
 
 	<script type="text/javascript" src="build/app.js"></script>
 </body>

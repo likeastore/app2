@@ -8027,8 +8027,8 @@ button.close {
 }
 /* line 1, ../sass/_main-menu.scss */
 .main-menu {
-  color: #DADFE1;
   position: fixed;
+  display: block;
   width: 180px;
   height: 100%;
   top: 0;
@@ -8068,9 +8068,76 @@ button.close {
   padding: 20px;
 }
 
-/* line 6, ../sass/main.scss */
+/* line 2, ../sass/_empty-feed.scss */
+.content .empty-feed {
+  padding: 40px 0;
+  margin-top: 20%;
+  text-align: center;
+}
+/* line 7, ../sass/_empty-feed.scss */
+.content .empty-feed h1 {
+  font-weight: 700;
+}
+
+/* line 1, ../sass/_buttons.scss */
+.btn {
+  border-radius: 0;
+}
+
+/* line 5, ../sass/_buttons.scss */
+.btn-xlg {
+  padding: 20px 28px;
+  font-size: 1.3em;
+}
+
+/* line 10, ../sass/_buttons.scss */
+.btn-green {
+  color: #fff;
+  background-color: #1BBC9B;
+}
+
+/* line 15, ../sass/_buttons.scss */
+.btn-green:hover {
+  color: #fff;
+}
+
+/* line 19, ../sass/_buttons.scss */
+.btn-purple {
+  color: #fff;
+  background-color: #674172;
+}
+
+/* line 24, ../sass/_buttons.scss */
+.btn-purple:hover {
+  color: #fff;
+}
+
+/* line 28, ../sass/_buttons.scss */
+.btn-red {
+  color: #fff;
+  background-color: #F64747;
+}
+
+/* line 33, ../sass/_buttons.scss */
+.btn-red:hover {
+  color: #fff;
+}
+
+/* line 8, ../sass/main.scss */
 body {
   font-family: 'Hind', sans-serif;
   font-weight: 300;
   font-size: 18px;
+}
+
+/* line 14, ../sass/main.scss */
+.content {
+  margin-left: 180px;
+}
+/* line 17, ../sass/main.scss */
+.content .wrapper {
+  display: block;
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
 }
