@@ -7,6 +7,10 @@
 	font-size: 1.3em;
 }
 
+.btn-col {
+	width: 100%;
+}
+
 .btn-green {
 	color: #fff;
 	background-color: #1BBC9B;
@@ -31,5 +35,14 @@
 }
 
 .btn-red:hover {
+	color: #fff;
+}
+
+.btn-grey {
+	color: #fff;
+	background-color: #BDC3C7;
+}
+
+.btn-grey:hover {
 	color: #fff;
 }

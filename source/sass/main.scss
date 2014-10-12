@@ -3,6 +3,7 @@
 
 @import "main-menu";
 @import "empty-feed";
+@import "topics";
 @import "buttons";
 
 body {
@@ -11,13 +12,17 @@ body {
 	font-size: 18px;
 }
 
+h1, h2, h3 {
+	font-weight: 600;
+}
+
 .content {
 	margin-left: 180px;
 
 	.wrapper {
 		display: block;
 		position: relative;
-		width: 900px;
+		padding: 12px 120px;
 		margin: 0 auto;
 	}
 }

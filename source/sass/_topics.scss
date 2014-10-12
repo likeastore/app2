@@ -1,0 +1,26 @@
+.topics {
+	.header {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #ECECEC;
+	}
+
+	.interests-container {
+		padding: 20px 0;
+
+		div.row {
+			margin-top: 12px;
+		}
+
+		button.selected {
+			background-color: #BDC3C7;
+		}
+
+		.topic {
+			padding: 4px;
+		}
+
+		.desc {
+
+		}
+	}
+}

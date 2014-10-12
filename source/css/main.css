@@ -8074,9 +8074,27 @@ button.close {
   margin-top: 20%;
   text-align: center;
 }
-/* line 7, ../sass/_empty-feed.scss */
-.content .empty-feed h1 {
-  font-weight: 700;
+
+/* line 2, ../sass/_topics.scss */
+.topics .header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ECECEC;
+}
+/* line 7, ../sass/_topics.scss */
+.topics .interests-container {
+  padding: 20px 0;
+}
+/* line 10, ../sass/_topics.scss */
+.topics .interests-container div.row {
+  margin-top: 12px;
+}
+/* line 14, ../sass/_topics.scss */
+.topics .interests-container button.selected {
+  background-color: #BDC3C7;
+}
+/* line 18, ../sass/_topics.scss */
+.topics .interests-container .topic {
+  padding: 4px;
 }
 
 /* line 1, ../sass/_buttons.scss */
@@ -8091,53 +8109,74 @@ button.close {
 }
 
 /* line 10, ../sass/_buttons.scss */
+.btn-col {
+  width: 100%;
+}
+
+/* line 14, ../sass/_buttons.scss */
 .btn-green {
   color: #fff;
   background-color: #1BBC9B;
 }
 
-/* line 15, ../sass/_buttons.scss */
+/* line 19, ../sass/_buttons.scss */
 .btn-green:hover {
   color: #fff;
 }
 
-/* line 19, ../sass/_buttons.scss */
+/* line 23, ../sass/_buttons.scss */
 .btn-purple {
   color: #fff;
   background-color: #674172;
 }
 
-/* line 24, ../sass/_buttons.scss */
+/* line 28, ../sass/_buttons.scss */
 .btn-purple:hover {
   color: #fff;
 }
 
-/* line 28, ../sass/_buttons.scss */
+/* line 32, ../sass/_buttons.scss */
 .btn-red {
   color: #fff;
   background-color: #F64747;
 }
 
-/* line 33, ../sass/_buttons.scss */
+/* line 37, ../sass/_buttons.scss */
 .btn-red:hover {
   color: #fff;
 }
 
-/* line 8, ../sass/main.scss */
+/* line 41, ../sass/_buttons.scss */
+.btn-grey {
+  color: #fff;
+  background-color: #BDC3C7;
+}
+
+/* line 46, ../sass/_buttons.scss */
+.btn-grey:hover {
+  color: #fff;
+}
+
+/* line 9, ../sass/main.scss */
 body {
   font-family: 'Hind', sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
 
-/* line 14, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* line 19, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 17, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;
-  width: 900px;
+  padding: 12px 120px;
   margin: 0 auto;
 }
