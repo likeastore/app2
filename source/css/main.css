@@ -8078,21 +8078,20 @@ button.close {
 /* line 2, ../sass/_topics.scss */
 .topics .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #ECECEC;
 }
-/* line 7, ../sass/_topics.scss */
+/* line 6, ../sass/_topics.scss */
 .topics .interests-container {
   padding: 20px 0;
 }
-/* line 10, ../sass/_topics.scss */
+/* line 9, ../sass/_topics.scss */
 .topics .interests-container div.row {
   margin-top: 12px;
 }
-/* line 14, ../sass/_topics.scss */
+/* line 13, ../sass/_topics.scss */
 .topics .interests-container button.selected {
   background-color: #BDC3C7;
 }
-/* line 18, ../sass/_topics.scss */
+/* line 17, ../sass/_topics.scss */
 .topics .interests-container .topic {
   padding: 4px;
 }
@@ -8162,18 +8161,19 @@ body {
   font-family: 'Hind', sans-serif;
   font-weight: 300;
   font-size: 18px;
+  color: #505959;
 }
 
-/* line 15, ../sass/main.scss */
+/* line 16, ../sass/main.scss */
 h1, h2, h3 {
   font-weight: 600;
 }
 
-/* line 19, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 22, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;
