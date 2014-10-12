@@ -1,0 +1,8 @@
+
+.icon-collections:before { content: '\e800'; } /* '' */
+.icon-favorites:before { content: '\e801'; } /* '' */
+.icon-account:before { content: '\e802'; } /* '' */
+.icon-feed:before { content: '\e804'; } /* '' */
+.icon-search:before { content: '\e805'; } /* '' */
+.icon-signout:before { content: '\e806'; } /* '' */
+.icon-connections:before { content: '\e807'; } /* '' */

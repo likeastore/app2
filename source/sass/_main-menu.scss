@@ -1,0 +1,41 @@
+.main-menu {
+	color: #DADFE1;
+	position: fixed;
+	width: 180px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-right: 1px solid #ECECEC;
+
+	.wrapper {
+		margin: 0 auto;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	ul li {
+		margin-top: 14px;
+		list-style-type: none;
+
+		a {
+			i {
+				font-size: 1.3em;
+				margin-right: 3px;
+			}
+
+			color: #DADFE1;
+			line-height: 1.3em;
+			text-decoration: none;
+		}
+
+		a:hover, a.current {
+			color: #95A5A6;
+		}
+	}
+
+	.menu-group {
+		padding: 20px;
+	}
+}
