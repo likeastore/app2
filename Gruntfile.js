@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 		browserify: {
 			dev: {
 				files: {
-					'source/js/bundle.js': ['source/js/app.js']
+					'source/build/app.js': ['source/js/app.js']
 				}
 			}
 		},
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 			},
 			main: {
 				files: {
-					'public/js/bundle.js': ['source/js/bundle.js']
+					'public/build/app.js': ['source/build/app.js']
 				}
 			}
 		},
@@ -42,8 +42,8 @@ module.exports = function (grunt) {
 		},
 		watch: {
 			src: {
-				files: ['source/**/*.js', '!source/js/bundle.js'],
-				tasks: ['browserify'],
+				files: ['source/**/*.js', '!source/build/app.js'],
+				tasks: ['jshint', 'browserify'],
 				options: {
 					livereload: true
 				}
@@ -92,6 +92,12 @@ module.exports = function (grunt) {
 				src: '**/*',
 				dest: 'public/images',
 				expand: true
+			},
+			bootstrap: {
+				cwd: 'source/css/bootstrap',
+				src: '**/*',
+				dest: 'public/css/bootstrap',
+				expand: true
 			}
 		}
 	});
@@ -106,9 +112,11 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-html-build');
 
-	grunt.registerTask('dev', ['jshint', 'browserify', 'uglify', 'compass']);
+	grunt.registerTask('dev', ['jshint', 'browserify', 'compass']);
 	grunt.registerTask('start:dev', ['dev', 'connect:dev', 'watch']);
 
-	grunt.registerTask('dist', ['dev', 'cssmin', 'htmlbuild', 'copy']);
+	grunt.registerTask('dist', ['dev', 'uglify', 'cssmin', 'htmlbuild', 'copy']);
 	grunt.registerTask('start:dist', ['dist', 'connect:dist', 'watch']);
+
+	grunt.registerTask('default', 'dev');
 };

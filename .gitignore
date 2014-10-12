@@ -2,4 +2,5 @@
 .DS_Store
 node_modules
 public
+source/build
 *.log
