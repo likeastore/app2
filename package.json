@@ -6,6 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "angular": "^1.2.23",
+    "angular-ui-router": "^0.2.11",
     "bootstrap-sass": "^3.2.0"
   },
   "devDependencies": {

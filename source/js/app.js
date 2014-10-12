@@ -1,3 +1,7 @@
-var angular = require('angular');
+require('./dependencies');
+require('./controllers');
 
-var app = angular.module('app', []);
+var angular = require('angular');
+var app = angular.module('app', ['ui.router', 'controllers']);
+
+module.exports = app;
