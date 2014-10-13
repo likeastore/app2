@@ -8074,6 +8074,10 @@ button.close {
   margin-top: 20%;
   text-align: center;
 }
+/* line 8, ../sass/_empty-feed.scss */
+.content button {
+  margin-top: 16px;
+}
 
 /* line 2, ../sass/_topics.scss */
 .topics .header {
@@ -8161,7 +8165,7 @@ body {
   font-family: 'Hind', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #505959;
+  color: #434a4a;
 }
 
 /* line 16, ../sass/main.scss */
