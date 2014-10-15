@@ -5,7 +5,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	border-right: 1px solid #ECECEC;
+	border-right: 1px solid $light-border-color;
 
 	.wrapper {
 		margin: 0 auto;
@@ -21,7 +21,7 @@
 
 		a {
 			i {
-				font-size: 1.3em;
+				font-size: 1.2em;
 				margin-right: 3px;
 			}
 

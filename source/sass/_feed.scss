@@ -1,0 +1,18 @@
+.content {
+	.feed {
+		padding: 0 120px;
+
+		.feed-element {
+			padding-bottom: 40px;
+			border-bottom: 1px solid $light-border-color;
+		}
+
+		.feed-element-content a {
+			color: $primary-color;
+		}
+
+		.feed-element-text {
+			color: lighten($primary-color, 5%);
+		}
+	}
+}

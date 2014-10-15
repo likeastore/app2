@@ -8056,7 +8056,7 @@ button.close {
 }
 /* line 23, ../sass/_main-menu.scss */
 .main-menu ul li a i {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-right: 3px;
 }
 /* line 33, ../sass/_main-menu.scss */
@@ -8068,15 +8068,33 @@ button.close {
   padding: 20px;
 }
 
-/* line 2, ../sass/_empty-feed.scss */
-.content .empty-feed {
+/* line 2, ../sass/_empty-box.scss */
+.content .empty-box {
   padding: 40px 0;
   margin-top: 20%;
   text-align: center;
 }
-/* line 8, ../sass/_empty-feed.scss */
-.content button {
+/* line 7, ../sass/_empty-box.scss */
+.content .empty-box button {
   margin-top: 16px;
+}
+
+/* line 2, ../sass/_feed.scss */
+.content .feed {
+  padding: 0 120px;
+}
+/* line 5, ../sass/_feed.scss */
+.content .feed .feed-element {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ECECEC;
+}
+/* line 10, ../sass/_feed.scss */
+.content .feed .feed-element-content a {
+  color: #434a4a;
+}
+/* line 14, ../sass/_feed.scss */
+.content .feed .feed-element-text {
+  color: #4f5757;
 }
 
 /* line 2, ../sass/_topics.scss */
@@ -8160,7 +8178,7 @@ button.close {
   color: #fff;
 }
 
-/* line 9, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 body {
   font-family: 'Hind', sans-serif;
   font-weight: 300;
@@ -8168,16 +8186,24 @@ body {
   color: #434a4a;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 h1, h2, h3 {
   font-weight: 600;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
+p {
+  font-family: 'Karma', serif;
+  word-spacing: 3px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* line 31, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 23, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;

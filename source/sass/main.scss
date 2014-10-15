@@ -1,8 +1,12 @@
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/bootstrap";
 @import "../css/fontello/css/fontello.css";
 
+$primary-color: #434a4a;
+$light-border-color: #ECECEC;
+
 @import "main-menu";
-@import "empty-feed";
+@import "empty-box";
+@import "feed";
 @import "topics";
 @import "buttons";
 
@@ -10,11 +14,18 @@ body {
 	font-family: 'Hind', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-	color: #434a4a;
+	color: $primary-color;
 }
 
 h1, h2, h3 {
 	font-weight: 600;
+}
+
+p {
+	font-family: 'Karma', serif;
+	word-spacing: 3px;
+	font-weight: 300;
+	line-height: 30px;
 }
 
 .content {
