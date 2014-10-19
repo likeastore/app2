@@ -98,6 +98,12 @@ module.exports = function (grunt) {
 				src: '**/*',
 				dest: 'public/css/bootstrap',
 				expand: true
+			},
+			fontello: {
+				cwd: 'source/css/fontello',
+				src: '**/*',
+				dest: 'public/css/fontello',
+				expand: true
 			}
 		}
 	});
