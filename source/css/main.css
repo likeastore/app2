@@ -8081,18 +8081,23 @@ button.close {
 
 /* line 2, ../sass/_feed.scss */
 .content .feed {
-  padding: 0 120px;
+  padding: 0 100px;
 }
 /* line 5, ../sass/_feed.scss */
+.content .feed a {
+  text-decoration: none;
+}
+/* line 9, ../sass/_feed.scss */
 .content .feed .feed-element {
   padding-bottom: 40px;
   border-bottom: 1px solid #ECECEC;
+  margin-bottom: 80px;
 }
-/* line 10, ../sass/_feed.scss */
+/* line 15, ../sass/_feed.scss */
 .content .feed .feed-element-content a {
   color: #434a4a;
 }
-/* line 14, ../sass/_feed.scss */
+/* line 19, ../sass/_feed.scss */
 .content .feed .feed-element-text {
   color: #4f5757;
 }

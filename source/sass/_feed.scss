@@ -1,10 +1,15 @@
 .content {
 	.feed {
-		padding: 0 120px;
+		padding: 0 100px;
+
+		a {
+			text-decoration: none;
+		}
 
 		.feed-element {
 			padding-bottom: 40px;
 			border-bottom: 1px solid $light-border-color;
+			margin-bottom: 80px;
 		}
 
 		.feed-element-content a {
