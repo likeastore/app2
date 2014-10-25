@@ -3512,10 +3512,10 @@ output {
 }
 /* line 53, ../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .form-control:focus {
-  border-color: #a679b3;
+  border-color: #b793c1;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(166, 121, 179, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(166, 121, 179, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(183, 147, 193, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(183, 147, 193, 0.6);
 }
 /* line 102, ../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-moz-placeholder {
@@ -8087,7 +8087,7 @@ button.close {
 
 /* line 1, ../sass/_inputs.scss */
 .inp {
-  border-color: #ECECEC;
+  border-color: darker(#ECECEC, 30%);
 }
 
 /* line 5, ../sass/_inputs.scss */
@@ -8098,24 +8098,24 @@ button.close {
 
 /* line 1, ../sass/_placeholders.scss */
 .form-control::-webkit-input-placeholder {
-  color: #8e9898;
+  color: #c3c9c9;
 }
 
 /* line 5, ../sass/_placeholders.scss */
 .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: #8e9898;
+  color: #c3c9c9;
 }
 
 /* line 9, ../sass/_placeholders.scss */
 .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #8e9898;
+  color: #c3c9c9;
 }
 
 /* line 13, ../sass/_placeholders.scss */
 .form-control:-ms-input-placeholder {
-  color: #8e9898;
+  color: #c3c9c9;
 }
 
 /* line 1, ../sass/_main-menu.scss */
