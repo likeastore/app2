@@ -3512,10 +3512,10 @@ output {
 }
 /* line 53, ../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .form-control:focus {
-  border-color: #b793c1;
+  border-color: #e2d4e6;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(183, 147, 193, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(183, 147, 193, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(226, 212, 230, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(226, 212, 230, 0.6);
 }
 /* line 102, ../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-moz-placeholder {
@@ -8053,34 +8053,46 @@ button.close {
 }
 
 /* line 23, ../sass/_buttons.scss */
+.btn-border-green {
+  background-color: #fff;
+  border: 2px solid #1BBC9B;
+  color: #1BBC9B;
+}
+
+/* line 29, ../sass/_buttons.scss */
+.btn-border-green:hover {
+  color: #1BBC9B;
+}
+
+/* line 33, ../sass/_buttons.scss */
 .btn-purple {
   color: #fff;
   background-color: #674172;
 }
 
-/* line 28, ../sass/_buttons.scss */
+/* line 38, ../sass/_buttons.scss */
 .btn-purple:hover {
   color: #fff;
 }
 
-/* line 32, ../sass/_buttons.scss */
+/* line 42, ../sass/_buttons.scss */
 .btn-red {
   color: #fff;
   background-color: #F64747;
 }
 
-/* line 37, ../sass/_buttons.scss */
+/* line 47, ../sass/_buttons.scss */
 .btn-red:hover {
   color: #fff;
 }
 
-/* line 41, ../sass/_buttons.scss */
+/* line 51, ../sass/_buttons.scss */
 .btn-grey {
   color: #fff;
   background-color: #BDC3C7;
 }
 
-/* line 46, ../sass/_buttons.scss */
+/* line 56, ../sass/_buttons.scss */
 .btn-grey:hover {
   color: #fff;
 }
@@ -8247,7 +8259,45 @@ button.close {
   padding: 4px;
 }
 
-/* line 19, ../sass/main.scss */
+/* line 2, ../sass/_connections.scss */
+.connections .header {
+  padding-bottom: 20px;
+}
+/* line 6, ../sass/_connections.scss */
+.connections .connections-container {
+  padding: 20px 0;
+}
+/* line 9, ../sass/_connections.scss */
+.connections .connections-container div.row {
+  margin-top: 12px;
+}
+/* line 13, ../sass/_connections.scss */
+.connections .connections-container button.selected {
+  background-color: #BDC3C7;
+}
+/* line 17, ../sass/_connections.scss */
+.connections .connections-container .connection {
+  padding: 15px 0px;
+  font-size: 1.3em;
+}
+/* line 22, ../sass/_connections.scss */
+.connections .connections-container .facebook {
+  color: #3c599f;
+}
+/* line 26, ../sass/_connections.scss */
+.connections .connections-container .twitter {
+  color: #33c6f4;
+}
+/* line 30, ../sass/_connections.scss */
+.connections .connections-container .vimeo {
+  color: #62a0ad;
+}
+/* line 34, ../sass/_connections.scss */
+.connections .connections-container .youtube {
+  color: #c0392b;
+}
+
+/* line 20, ../sass/main.scss */
 body {
   font-family: 'Source Sans Pro', serif;
   font-weight: 300;
@@ -8255,24 +8305,24 @@ body {
   color: #434a4a;
 }
 
-/* line 26, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 h1, h2, h3 {
   font-family: 'Hind', sans-serif;
   font-weight: 600;
 }
 
-/* line 31, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 p {
   word-spacing: 3px;
   font-weight: 300;
   line-height: 30px;
 }
 
-/* line 37, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 40, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;

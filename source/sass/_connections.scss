@@ -1,0 +1,38 @@
+.connections {
+	.header {
+		padding-bottom: 20px;
+	}
+
+	.connections-container {
+		padding: 20px 0;
+
+		div.row {
+			margin-top: 12px;
+		}
+
+		button.selected {
+			background-color: #BDC3C7;
+		}
+
+		.connection {
+			padding: 15px 0px;
+			font-size: 1.3em;
+		}
+
+		.facebook {
+			color: #3c599f;
+		}
+
+		.twitter {
+			color: #33c6f4;
+		}
+
+		.vimeo {
+			color: #62a0ad;
+		}
+
+		.youtube {
+			color: #c0392b;
+		}
+	}
+}

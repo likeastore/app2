@@ -1,5 +1,5 @@
 $border-radius-base: 0;
-$input-border-focus: #b793c1;
+$input-border-focus: #e2d4e6;
 
 $primary-color: #434a4a;
 $light-border-color: #ECECEC;
@@ -15,6 +15,7 @@ $light-border-color: #ECECEC;
 @import "empty-box";
 @import "feed";
 @import "topics";
+@import "connections";
 
 body {
 	font-family: 'Source Sans Pro', serif;
