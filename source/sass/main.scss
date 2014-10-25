@@ -1,14 +1,20 @@
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/bootstrap";
-@import "../css/fontello/css/fontello.css";
+$border-radius-base: 0;
+$input-border-focus: #a679b3;
 
 $primary-color: #434a4a;
 $light-border-color: #ECECEC;
+
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/bootstrap";
+@import "../css/fontello/css/fontello.css";
+
+@import "buttons";
+@import "inputs";
+@import "placeholders";
 
 @import "main-menu";
 @import "empty-box";
 @import "feed";
 @import "topics";
-@import "buttons";
 
 body {
 	font-family: 'Hind', sans-serif;

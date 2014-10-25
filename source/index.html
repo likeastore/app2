@@ -29,84 +29,25 @@
 			<div class="wrapper">
 				<ul class="menu-primary menu-group">
 					<li><a ui-sref="feed" class="current"><i class="icon-feed"></i> Feed</a></li>
-					<li><a href="search"><i class="icon-search"></i> Search</a></li>
-					<li><a href="connections"><i class="icon-connections"></i> Connections</a></li>
+					<li><a ui-sref="search"><i class="icon-search"></i> Search</a></li>
+					<li><a ui-sref="connections"><i class="icon-connections"></i> Connections</a></li>
 				</ul>
 
 				<ul class="menu-social menu-group">
-					<li><a href="favorites"><i class="icon-favorites"></i> Favorites</a></li>
-					<li><a href="collections"><i class="icon-collections"></i> Collections</a></li>
-					<li><a href="topics"><i class="icon-topics"></i> Topics</a></li>
+					<li><a ui-sref="favorites"><i class="icon-favorites"></i> Favorites</a></li>
+					<li><a ui-sref="collections"><i class="icon-collections"></i> Collections</a></li>
+					<li><a ui-sref="topics"><i class="icon-topics"></i> Topics</a></li>
 				</ul>
 
 				<ul class="menu-additional menu-group">
-					<li><a href="account"><i class="icon-account"></i> Account</a></li>
-					<li><a href="signout"><i class="icon-signout"></i> Sigout</a></li>
+					<li><a ui-sref="account"><i class="icon-account"></i> Account</a></li>
+					<li><a ui-sref="signout"><i class="icon-signout"></i> Sigout</a></li>
 				</ul>
 			</div>
 		</section>
 
 		<section class="content container-fluid" ui-view>
-<!--
-				<div class="empty-box row">
-					<h1 class="message">Your favorites is currently empty, connect networks.</h1>
-					<button class="btn btn-xlg btn-green">Go to connection</button>
-				</div>
- -->
-
-<!-- 				<div class="empty-box row">
-					<h1 class="message">Your feed is currently empty, pickup interesting topics.</h1>
-					<button class="btn btn-xlg btn-green">Go to topics</button>
-				</div>
- -->
-
-<!-- 				<div class="topics">
-					<div class="row header">
-						<h2>What's your interests?</h2>
-						<p class="desc">
-							Pickup everything which is more relevant to you, we will form the feed from favorites on this topics.
-						</p>
-					</div>
-					<div class="interests-container">
-						<div class="row">
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-green btn-col">Web programming</button>
-							</div>
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-grey btn-col">Startups</button>
-							</div>
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-grey btn-col">Design</button>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-grey btn-col">Clojure</button>
-							</div>
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-green btn-col">Node.js</button>
-							</div>
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-green btn-col">.NET</button>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-green btn-col">Social Media Marketing</button>
-							</div>
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-grey btn-col selected">Analytics</button>
-							</div>
-							<div class="col-md-4 topic">
-								<button class="btn btn-lg btn-grey btn-col">HTML</button>
-							</div>
-						</div>
-					</div>
-				</div>
-
- -->			</div>
 		</section>
-
 	</div>
 
 	<script type="text/javascript" src="build/app.js"></script>
