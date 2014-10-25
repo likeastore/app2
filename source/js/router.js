@@ -16,6 +16,10 @@ function router(app) {
 			.state('search', {
 				url: 'search',
 				templateUrl: 'views/search.html'
+			})
+			.state('connections', {
+				url: 'connections',
+				templateUrl: 'views/connections.html'
 			});
 
 		$locationProvider.html5Mode(true);

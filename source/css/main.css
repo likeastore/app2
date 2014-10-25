@@ -8122,7 +8122,7 @@ button.close {
 .main-menu {
   position: fixed;
   display: block;
-  width: 180px;
+  width: 190px;
   height: 100%;
   top: 0;
   left: 0;
@@ -8249,7 +8249,7 @@ button.close {
 
 /* line 19, ../sass/main.scss */
 body {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Source Sans Pro', serif;
   font-weight: 300;
   font-size: 18px;
   color: #434a4a;
@@ -8257,12 +8257,12 @@ body {
 
 /* line 26, ../sass/main.scss */
 h1, h2, h3 {
+  font-family: 'Hind', sans-serif;
   font-weight: 600;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 p {
-  font-family: 'Karma', serif;
   word-spacing: 3px;
   font-weight: 300;
   line-height: 30px;

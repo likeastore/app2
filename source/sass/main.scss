@@ -17,18 +17,18 @@ $light-border-color: #ECECEC;
 @import "topics";
 
 body {
-	font-family: 'Hind', sans-serif;
+	font-family: 'Source Sans Pro', serif;
 	font-weight: 300;
 	font-size: 18px;
 	color: $primary-color;
 }
 
 h1, h2, h3 {
+	font-family: 'Hind', sans-serif;
 	font-weight: 600;
 }
 
 p {
-	font-family: 'Karma', serif;
 	word-spacing: 3px;
 	font-weight: 300;
 	line-height: 30px;
