@@ -1,6 +1,10 @@
 function router(app) {
 	app.config(function ($stateProvider, $locationProvider) {
 		$stateProvider
+			.state('welcome', {
+				url: '/',
+				templateUrl: 'views/welcome.html'
+			})
 			.state('feed', {
 				url: 'feed',
 				templateUrl: 'views/feed.html'

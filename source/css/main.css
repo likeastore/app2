@@ -3512,10 +3512,10 @@ output {
 }
 /* line 53, ../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .form-control:focus {
-  border-color: #e2d4e6;
+  border-color: #ECECEC;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(226, 212, 230, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(226, 212, 230, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 236, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 236, 236, 0.6);
 }
 /* line 102, ../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-moz-placeholder {
@@ -8099,33 +8099,34 @@ button.close {
 
 /* line 1, ../sass/_inputs.scss */
 .inp {
-  border-color: darker(#ECECEC, 30%);
+  border-color: darker(#ECECEC, 50%);
 }
 
 /* line 5, ../sass/_inputs.scss */
 .inp-xlg {
-  padding: 28px 20px;
+  padding: 0 20px;
+  height: 65px;
   font-size: 1em;
 }
 
-/* line 1, ../sass/_placeholders.scss */
+/* line 2, ../sass/_placeholders.scss */
 .form-control::-webkit-input-placeholder {
   color: #c3c9c9;
 }
 
-/* line 5, ../sass/_placeholders.scss */
+/* line 6, ../sass/_placeholders.scss */
 .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #c3c9c9;
 }
 
-/* line 9, ../sass/_placeholders.scss */
+/* line 10, ../sass/_placeholders.scss */
 .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #c3c9c9;
 }
 
-/* line 13, ../sass/_placeholders.scss */
+/* line 14, ../sass/_placeholders.scss */
 .form-control:-ms-input-placeholder {
   color: #c3c9c9;
 }
@@ -8277,8 +8278,8 @@ button.close {
 }
 /* line 17, ../sass/_connections.scss */
 .connections .connections-container .connection {
-  padding: 15px 0px;
-  font-size: 1.3em;
+  padding: 12px 0px;
+  font-size: 1.1em;
 }
 /* line 22, ../sass/_connections.scss */
 .connections .connections-container .facebook {
@@ -8297,7 +8298,20 @@ button.close {
   color: #c0392b;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 1, ../sass/_welcome.scss */
+.welcome {
+  margin: -80px auto !important;
+}
+/* line 4, ../sass/_welcome.scss */
+.welcome .logo {
+  background: url(../images/logo-128.png) no-repeat;
+  height: 128px;
+  width: 128px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 21, ../sass/main.scss */
 body {
   font-family: 'Source Sans Pro', serif;
   font-weight: 300;
@@ -8305,27 +8319,46 @@ body {
   color: #434a4a;
 }
 
-/* line 27, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 h1, h2, h3 {
   font-family: 'Hind', sans-serif;
   font-weight: 600;
 }
 
-/* line 32, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 p {
   word-spacing: 3px;
   font-weight: 300;
   line-height: 30px;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
+a, a:visited, a:focus, a:active, a:hover {
+  outline: 0 none !important;
+}
+
+/* line 42, ../sass/main.scss */
+:focus {
+  outline: none;
+}
+
+/* line 43, ../sass/main.scss */
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 45, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 41, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;
   padding: 12px 120px;
   margin: 0 auto;
+}
+/* line 55, ../sass/main.scss */
+.content .huge {
+  font-size: 2.6em;
 }
