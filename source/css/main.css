@@ -8084,7 +8084,7 @@ button.close {
 
 /* line 48, ../sass/_buttons.scss */
 .btn-border-purple:hover {
-  color: #fff;
+  color: #674172;
 }
 
 /* line 52, ../sass/_buttons.scss */
@@ -8379,7 +8379,7 @@ p {
 }
 
 /* line 40, ../sass/main.scss */
-a, a:visited, a:focus, a:active, a:hover {
+a, a:visited, a:focus, a:active, a:hover, button {
   outline: 0 none !important;
 }
 
