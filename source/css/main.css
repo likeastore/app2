@@ -8076,23 +8076,35 @@ button.close {
 }
 
 /* line 42, ../sass/_buttons.scss */
+.btn-border-purple {
+  background-color: #fff;
+  border: 2px solid #674172;
+  color: #674172;
+}
+
+/* line 48, ../sass/_buttons.scss */
+.btn-border-purple:hover {
+  color: #fff;
+}
+
+/* line 52, ../sass/_buttons.scss */
 .btn-red {
   color: #fff;
   background-color: #F64747;
 }
 
-/* line 47, ../sass/_buttons.scss */
+/* line 57, ../sass/_buttons.scss */
 .btn-red:hover {
   color: #fff;
 }
 
-/* line 51, ../sass/_buttons.scss */
+/* line 61, ../sass/_buttons.scss */
 .btn-grey {
   color: #fff;
   background-color: #BDC3C7;
 }
 
-/* line 56, ../sass/_buttons.scss */
+/* line 66, ../sass/_buttons.scss */
 .btn-grey:hover {
   color: #fff;
 }
@@ -8311,7 +8323,41 @@ button.close {
   margin: 0 auto;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 1, ../sass/_account.scss */
+.account {
+  padding: 40px 0;
+}
+/* line 4, ../sass/_account.scss */
+.account .account-info {
+  text-align: center;
+}
+/* line 8, ../sass/_account.scss */
+.account .account-stats {
+  text-align: center;
+  width: 300px;
+  margin: 20px auto;
+  font-size: 0.85em;
+}
+/* line 15, ../sass/_account.scss */
+.account .account-image {
+  height: 104px;
+  width: 104px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 23, ../sass/_account.scss */
+.account .desc {
+  padding: 4px 0;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/* line 29, ../sass/_account.scss */
+.account .account-buttons {
+  display: inline-block;
+}
+
+/* line 22, ../sass/main.scss */
 body {
   font-family: 'Source Sans Pro', serif;
   font-weight: 300;
@@ -8319,46 +8365,36 @@ body {
   color: #434a4a;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 h1, h2, h3 {
   font-family: 'Hind', sans-serif;
   font-weight: 600;
 }
 
-/* line 33, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 p {
   word-spacing: 3px;
   font-weight: 300;
   line-height: 30px;
 }
 
-/* line 39, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 a, a:visited, a:focus, a:active, a:hover {
   outline: 0 none !important;
 }
 
-/* line 42, ../sass/main.scss */
-:focus {
-  outline: none;
-}
-
-/* line 43, ../sass/main.scss */
-::-moz-focus-inner {
-  border: 0;
-}
-
-/* line 45, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 48, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;
-  padding: 12px 120px;
+  padding: 20px 120px;
   margin: 0 auto;
 }
-/* line 55, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 .content .huge {
   font-size: 2.6em;
 }

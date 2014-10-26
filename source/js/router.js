@@ -24,6 +24,10 @@ function router(app) {
 			.state('connections', {
 				url: 'connections',
 				templateUrl: 'views/connections.html'
+			})
+			.state('account', {
+				url: 'account',
+				templateUrl: 'views/account.html'
 			});
 
 		$locationProvider.html5Mode(true);

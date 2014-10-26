@@ -1,0 +1,36 @@
+.account {
+	padding: 40px 0;
+
+	.account-info {
+		text-align: center;
+	}
+
+	.account-stats {
+		text-align: center;
+		width: 300px;
+		margin: 20px auto;
+		font-size: 0.85em;
+	}
+
+	.account-image {
+		height: 104px;
+		width: 104px;
+		border-radius: 50%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.desc {
+		padding: 4px 0;
+		font-style: italic;
+		font-size: 0.9em;
+	}
+
+	.account-buttons {
+		display: inline-block;
+
+		button {
+
+		}
+	}
+}

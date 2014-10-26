@@ -17,6 +17,7 @@ $light-border-color: #ECECEC;
 @import "topics";
 @import "connections";
 @import "welcome";
+@import "account";
 
 body {
 	font-family: 'Source Sans Pro', serif;
@@ -39,8 +40,6 @@ p {
 a, a:visited, a:focus, a:active, a:hover{
     outline:0 none !important;
 }
-:focus {outline:none;}
-::-moz-focus-inner {border:0;}
 
 .content {
 	margin-left: 180px;
@@ -48,7 +47,7 @@ a, a:visited, a:focus, a:active, a:hover{
 	.wrapper {
 		display: block;
 		position: relative;
-		padding: 12px 120px;
+		padding: 20px 120px;
 		margin: 0 auto;
 	}
 
