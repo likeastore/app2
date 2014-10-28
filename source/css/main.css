@@ -8293,22 +8293,6 @@ button.close {
   padding: 12px 0px;
   font-size: 1.1em;
 }
-/* line 22, ../sass/_connections.scss */
-.connections .connections-container .facebook {
-  color: #3c599f;
-}
-/* line 26, ../sass/_connections.scss */
-.connections .connections-container .twitter {
-  color: #33c6f4;
-}
-/* line 30, ../sass/_connections.scss */
-.connections .connections-container .vimeo {
-  color: #62a0ad;
-}
-/* line 34, ../sass/_connections.scss */
-.connections .connections-container .youtube {
-  color: #c0392b;
-}
 
 /* line 1, ../sass/_welcome.scss */
 .welcome {
@@ -8357,7 +8341,35 @@ button.close {
   display: inline-block;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 7, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite-row {
+  margin-bottom: 30px;
+}
+/* line 11, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite {
+  width: 308px;
+  height: 280px;
+  border: 1px solid #ECECEC;
+  color: #8e9898;
+}
+/* line 17, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite .icon {
+  display: inline-block;
+  position: absolute;
+  bottom: 8px;
+  right: 35px;
+  font-size: 1.1em;
+}
+/* line 25, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite time {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+
+/* line 23, ../sass/main.scss */
 body {
   font-family: 'Source Sans Pro', serif;
   font-weight: 300;
@@ -8365,36 +8377,52 @@ body {
   color: #434a4a;
 }
 
-/* line 29, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 h1, h2, h3 {
   font-family: 'Hind', sans-serif;
   font-weight: 600;
 }
 
-/* line 34, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 p {
   word-spacing: 3px;
   font-weight: 300;
   line-height: 30px;
 }
 
-/* line 40, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 a, a:visited, a:focus, a:active, a:hover, button {
   outline: 0 none !important;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 47, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;
   padding: 20px 120px;
   margin: 0 auto;
 }
-/* line 54, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 .content .huge {
   font-size: 2.6em;
+}
+/* line 59, ../sass/main.scss */
+.content .facebook {
+  color: #3c599f;
+}
+/* line 63, ../sass/main.scss */
+.content .twitter {
+  color: #33c6f4;
+}
+/* line 67, ../sass/main.scss */
+.content .vimeo {
+  color: #62a0ad;
+}
+/* line 71, ../sass/main.scss */
+.content .youtube {
+  color: #c0392b;
 }

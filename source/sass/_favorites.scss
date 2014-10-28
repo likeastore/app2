@@ -1,0 +1,34 @@
+.favorites {
+	.header {
+
+	}
+
+	.favorites-container {
+		.favorite-row {
+			margin-bottom: 30px;
+		}
+
+		.favorite {
+			width: 308px;
+			height: 280px;
+			border: 1px solid $light-border-color;
+			color: lighten($primary-color, 30%);
+
+			.icon {
+				display: inline-block;
+				position: absolute;
+				bottom: 8px;
+				right: 35px;
+				font-size: 1.1em;
+			}
+
+			time {
+				position: absolute;
+				bottom: 15px;
+				left: 30px;
+				font-size: 0.75em;
+				font-weight: 700;
+			}
+		}
+	}
+}

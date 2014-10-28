@@ -1,0 +1,95 @@
+/*
+Error: Undefined variable: "$light-border-color".
+        on line 10 of /Users/alexanderbeletsky/Development/Projects/likeastore/app2/source/sass/favorites.scss
+
+5: 
+6: 	.favorites-container {
+7: 
+8: 		.favorite {
+9: 			min-height: 400px;
+10: 			border-color: $light-border-color;
+11: 		}
+12: 
+13: 	}
+14: }
+
+Backtrace:
+/Users/alexanderbeletsky/Development/Projects/likeastore/app2/source/sass/favorites.scss:10
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:378:in `visit_prop'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:115:in `with_frame'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `block (2 levels) in visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `map'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `block in visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:412:in `visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:115:in `with_frame'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `block (2 levels) in visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `map'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `block in visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:412:in `visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:115:in `with_frame'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `block (2 levels) in visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `map'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:414:in `block in visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:412:in `visit_rule'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:115:in `with_frame'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/stack.rb:79:in `with_base'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/tree/root_node.rb:20:in `render'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/engine.rb:268:in `render'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/bin/compass:44:in `call'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/bin/compass:23:in `load'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/bin/compass:23:in `<main>'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/bin/ruby_noexec_wrapper:14:in `eval'
+/Users/alexanderbeletsky/.rvm/gems/ruby-2.0.0-p195/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$light-border-color\".\A         on line 10 of /Users/alexanderbeletsky/Development/Projects/likeastore/app2/source/sass/favorites.scss\A \A 5: \A 6: 	.favorites-container {\A 7: \A 8: 		.favorite {\A 9: 			min-height: 400px;\A 10: 			border-color: $light-border-color;\A 11: 		}\A 12: \A 13: 	}\A 14: }"; }
