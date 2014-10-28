@@ -22,6 +22,35 @@
 				font-size: 1.1em;
 			}
 
+			img {
+				border-radius: 50%;
+			}
+
+			.avatar {
+				position: absolute;
+				top: 15px;
+				left: 30px;
+			}
+
+			.desc {
+				padding: 10px;
+			}
+
+			a {
+				padding-left: 76px;
+				color: lighten($primary-color, 10%);
+				font-weight: 700;
+			}
+
+			p {
+				font-size: 0.95em;
+				width: 219px;
+				line-height: 21px;
+				font-weight: 400;
+				padding-left: 76px;
+				padding-top: 11px;
+			}
+
 			time {
 				position: absolute;
 				bottom: 15px;

@@ -8361,6 +8361,35 @@ button.close {
   font-size: 1.1em;
 }
 /* line 25, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite img {
+  border-radius: 50%;
+}
+/* line 29, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite .avatar {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+/* line 35, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite .desc {
+  padding: 10px;
+}
+/* line 39, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite a {
+  padding-left: 76px;
+  color: #5b6565;
+  font-weight: 700;
+}
+/* line 45, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite p {
+  font-size: 0.95em;
+  width: 219px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-left: 76px;
+  padding-top: 11px;
+}
+/* line 54, ../sass/_favorites.scss */
 .favorites .favorites-container .favorite time {
   position: absolute;
   bottom: 15px;
