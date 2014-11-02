@@ -1,3 +1,3 @@
-# Likeastore - App2
+# The prototype of Likeastore 2.0
 
-New look on Likeastore dashboard
+[Demo]()
