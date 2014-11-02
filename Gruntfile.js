@@ -111,6 +111,11 @@ module.exports = function (grunt) {
 				dest: 'public/views',
 				expand: true
 			}
+		},
+		shell: {
+			deploy: {
+				command: 'git subtree push --prefix public origin gh-pages'
+			}
 		}
 	});
 
@@ -123,12 +128,15 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-html-build');
+	grunt.loadNpmTasks('grunt-shell');
 
 	grunt.registerTask('dev', ['jshint', 'browserify', 'compass']);
 	grunt.registerTask('start:dev', ['dev', 'connect:dev', 'watch']);
 
 	grunt.registerTask('dist', ['dev', 'uglify', 'cssmin', 'htmlbuild', 'copy']);
 	grunt.registerTask('start:dist', ['dist', 'connect:dist', 'watch']);
+
+	grunt.registerTask('deploy', ['dist', 'shell']);
 
 	grunt.registerTask('default', 'dev');
 };
