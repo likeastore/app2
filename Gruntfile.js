@@ -114,7 +114,7 @@ module.exports = function (grunt) {
 		},
 		shell: {
 			deploy: {
-				command: 'git subtree push --prefix public origin gh-pages'
+				command: 'git subtree push --prefix public production master'
 			}
 		}
 	});
