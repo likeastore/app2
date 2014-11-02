@@ -29,20 +29,20 @@
 		<section class="main-menu">
 			<div class="wrapper">
 				<ul class="menu-primary menu-group">
-					<li><a ui-sref="feed" class="current"><i class="icon-feed"></i> Feed</a></li>
-					<li><a ui-sref="search"><i class="icon-search"></i> Search</a></li>
-					<li><a ui-sref="connections"><i class="icon-connections"></i> Connections</a></li>
+					<li><a ui-sref="feed" class="current" ng-class="{ current: $state.includes('feed') }"><i class="icon-feed"></i> Feed</a></li>
+					<li><a ui-sref="search" ng-class="{ current: $state.includes('search') }"><i class="icon-search"></i> Search</a></li>
+					<li><a ui-sref="connections" ng-class="{ current: $state.includes('connections') }"><i class="icon-connections"></i> Connections</a></li>
 				</ul>
 
 				<ul class="menu-social menu-group">
-					<li><a ui-sref="favorites"><i class="icon-favorites"></i> Favorites</a></li>
-					<li><a ui-sref="collections"><i class="icon-collections"></i> Collections</a></li>
-					<li><a ui-sref="topics"><i class="icon-topics"></i> Topics</a></li>
+					<li><a ui-sref="favorites" ng-class="{ current: $state.includes('favorites') }"><i class="icon-favorites"></i> Favorites</a></li>
+					<li><a ui-sref="collections" ng-class="{ current: $state.includes('collections') }"><i class="icon-collections"></i> Collections</a></li>
+					<li><a ui-sref="topics" ng-class="{ current: $state.includes('topics') }"><i class="icon-topics"></i> Topics</a></li>
 				</ul>
 
 				<ul class="menu-additional menu-group">
-					<li><a ui-sref="account"><i class="icon-account"></i> Account</a></li>
-					<li><a ui-sref="signout"><i class="icon-signout"></i> Sigout</a></li>
+					<li><a ui-sref="account" ng-class="{ current: $state.includes('account') }"><i class="icon-account"></i> Account</a></li>
+					<li><a ui-sref="signout" ng-class="{ current: $state.includes('signout') }"><i class="icon-signout"></i> Sigout</a></li>
 				</ul>
 			</div>
 		</section>

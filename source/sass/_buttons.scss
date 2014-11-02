@@ -12,67 +12,57 @@
 }
 
 .btn-green {
-	color: #fff;
-	background-color: #1BBC9B;
-}
-
-.btn-green:hover {
-	color: #fff;
+	@include button-variant(#fff, #1BBC9B, #1BBC9B);
 }
 
 .btn-border-green {
-	background-color: #fff;
 	border: 2px solid #1BBC9B;
-	color: #1BBC9B;
+	@include button-variant(#1BBC9B, #fff, #1BBC9B);
 }
 
 .btn-border-green:hover {
+	background-color: #fff;
 	color: #1BBC9B;
 }
 
 .btn-purple {
-	color: #fff;
-	background-color: #674172;
-}
-
-.btn-purple:hover {
-	color: #fff;
+	@include button-variant(#fff, #674172, #674172);
 }
 
 .btn-border-purple {
-	background-color: #fff;
-	border: 2px solid #674172;
-	color: #674172;
+	border: 2px solid #1BBC9B;
+	@include button-variant(#674172, #fff, #674172);
 }
 
 .btn-border-purple:hover {
+	background-color: #fff;
 	color: #674172;
 }
 
 .btn-red {
-	color: #fff;
-	background-color: #F64747;
-}
-
-.btn-red:hover {
-	color: #fff;
+	@include button-variant(#fff, #F64747, #F64747);
 }
 
 .btn-border-red {
-	background-color: #fff;
 	border: 2px solid #F64747;
-	color: #F64747;
+	@include button-variant(#F64747, #fff, #F64747);
 }
 
 .btn-border-red:hover {
+	background-color: #fff;
 	color: #F64747;
 }
 
 .btn-grey {
-	color: #fff;
-	background-color: #BDC3C7;
+	@include button-variant(#fff, #BDC3C7, #BDC3C7);
 }
 
-.btn-grey:hover {
-	color: #fff;
+.btn-border-grey {
+	border: 2px solid #1BBC9B;
+	@include button-variant(#BDC3C7, #fff, #BDC3C7);
+}
+
+.btn-border-grey:hover {
+	background-color: #fff;
+	color: #BDC3C7;
 }

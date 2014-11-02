@@ -1,5 +1,5 @@
 function router(app) {
-	app.config(function ($stateProvider, $locationProvider) {
+	app.config(function ($stateProvider) {
 		$stateProvider
 			.state('welcome', {
 				url: '/',
@@ -29,8 +29,6 @@ function router(app) {
 				url: 'account',
 				templateUrl: 'views/account.html'
 			});
-
-		$locationProvider.html5Mode(true);
 	});
 }
 

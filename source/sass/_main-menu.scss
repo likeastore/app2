@@ -25,7 +25,6 @@
 				margin-right: 3px;
 			}
 
-			//color: #DADFE1;
 			color: lighten($primary-color, 50%);
 			line-height: 1.3em;
 			text-decoration: none;
@@ -33,8 +32,6 @@
 
 		a:hover, a.current {
 			color: lighten($primary-color, 30%);
-
-			//color: #95A5A6;
 		}
 	}
 

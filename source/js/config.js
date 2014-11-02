@@ -1,6 +1,5 @@
 function config(app) {
-	app.config(function ($stateProvider, $locationProvider) {
-
+	app.config(function ($locationProvider) {
 		$locationProvider.html5Mode(true);
 	});
 }
