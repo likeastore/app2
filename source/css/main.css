@@ -8616,6 +8616,26 @@ button.close {
   height: 120px;
   margin: 0px auto;
   padding: 8px;
+  padding: 1px 10px;
+  position: relative;
+}
+/* line 37, ../sass/_collections.scss */
+.collections .collections-container .meta .curator {
+  position: absolute;
+  bottom: 10px;
+}
+/* line 41, ../sass/_collections.scss */
+.collections .collections-container .meta .curator img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+/* line 48, ../sass/_collections.scss */
+.collections .collections-container .meta .curator a {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #434a4a;
 }
 
 /* line 24, ../sass/main.scss */

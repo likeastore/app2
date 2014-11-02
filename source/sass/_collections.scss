@@ -31,9 +31,25 @@
 			height: 120px;
 			margin: 0px auto;
 			padding: 8px;
+			padding: 1px 10px;
+			position: relative;
 
-			h2 {
+			.curator {
+				position: absolute;
+				bottom: 10px;
 
+				img {
+					width: 26px;
+					height: 26px;
+					border-radius: 50%;
+					margin-right: 6px;
+				}
+
+				a {
+					font-size: 0.8em;
+					font-weight: 700;
+					color: $primary-color;
+				}
 			}
 		}
 	}
