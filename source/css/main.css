@@ -8373,10 +8373,6 @@ button.close {
   margin-top: 16px;
 }
 
-/* line 2, ../sass/_feed.scss */
-.content .feed {
-  padding: 0 80px;
-}
 /* line 5, ../sass/_feed.scss */
 .content .feed a {
   text-decoration: none;
