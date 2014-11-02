@@ -28,6 +28,10 @@ function router(app) {
 			.state('account', {
 				url: 'account',
 				templateUrl: 'views/account.html'
+			})
+			.state('collections', {
+				url: 'collections',
+				templateUrl: 'views/collections.html'
 			});
 	});
 }

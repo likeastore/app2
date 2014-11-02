@@ -1,0 +1,40 @@
+.collections {
+	.header {
+		padding: 10px 0px;
+	}
+
+	.collections-container {
+		.collections-row {
+			margin-bottom: 30px;
+		}
+
+		.collection {
+			width: 280px;
+			height: 380px;
+			border: 1px solid $light-border-color;
+			color: lighten($primary-color, 30%);
+		}
+
+		.preview {
+			height: 100%;
+			width: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			padding-top: 30px;
+		}
+
+		.meta {
+			background: rgba(255, 255, 255, .96);
+			width: 80%;
+			display: block;
+			height: 120px;
+			margin: 0px auto;
+			padding: 8px;
+
+			h2 {
+
+			}
+		}
+	}
+}

@@ -8517,6 +8517,10 @@ button.close {
   display: inline-block;
 }
 
+/* line 2, ../sass/_favorites.scss */
+.favorites .header {
+  padding: 10px 0px;
+}
 /* line 7, ../sass/_favorites.scss */
 .favorites .favorites-container .favorite-row {
   margin-bottom: 30px;
@@ -8584,7 +8588,41 @@ button.close {
   font-weight: 700;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 2, ../sass/_collections.scss */
+.collections .header {
+  padding: 10px 0px;
+}
+/* line 7, ../sass/_collections.scss */
+.collections .collections-container .collections-row {
+  margin-bottom: 30px;
+}
+/* line 11, ../sass/_collections.scss */
+.collections .collections-container .collection {
+  width: 280px;
+  height: 380px;
+  border: 1px solid #ECECEC;
+  color: #8e9898;
+}
+/* line 18, ../sass/_collections.scss */
+.collections .collections-container .preview {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 30px;
+}
+/* line 27, ../sass/_collections.scss */
+.collections .collections-container .meta {
+  background: rgba(255, 255, 255, 0.96);
+  width: 80%;
+  display: block;
+  height: 120px;
+  margin: 0px auto;
+  padding: 8px;
+}
+
+/* line 24, ../sass/main.scss */
 body {
   font-family: 'Source Sans Pro', serif;
   font-weight: 300;
@@ -8592,52 +8630,52 @@ body {
   color: #434a4a;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 h1, h2, h3 {
   font-family: 'Hind', sans-serif;
   font-weight: 600;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 p {
   word-spacing: 3px;
   font-weight: 300;
   line-height: 30px;
 }
 
-/* line 41, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 a, a:visited, a:focus, a:active, a:hover, button {
   outline: 0 none !important;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 .content {
   margin-left: 180px;
 }
-/* line 48, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 .content .wrapper {
   display: block;
   position: relative;
   padding: 20px 120px;
   margin: 0 auto;
 }
-/* line 55, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 .content .huge {
   font-size: 2.6em;
 }
-/* line 59, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 .content .facebook {
   color: #3c599f;
 }
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .content .twitter {
   color: #33c6f4;
 }
-/* line 67, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 .content .vimeo {
   color: #62a0ad;
 }
-/* line 71, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 .content .youtube {
   color: #c0392b;
 }
