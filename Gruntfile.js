@@ -104,6 +104,12 @@ module.exports = function (grunt) {
 				src: '**/*',
 				dest: 'public/css/fontello',
 				expand: true
+			},
+			views: {
+				cwd: 'source/views',
+				src: '**/*',
+				dest: 'public/views',
+				expand: true
 			}
 		}
 	});
