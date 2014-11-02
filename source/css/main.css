@@ -8537,35 +8537,45 @@ button.close {
   font-size: 1.1em;
 }
 /* line 25, ../sass/_favorites.scss */
-.favorites .favorites-container .favorite img {
+.favorites .favorites-container .favorite img.avatar {
   border-radius: 50%;
 }
 /* line 29, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite img.preview {
+  width: 100%;
+}
+/* line 33, ../sass/_favorites.scss */
 .favorites .favorites-container .favorite .avatar {
   position: absolute;
   top: 15px;
   left: 30px;
+  width: 50px;
+  height: 50px;
 }
-/* line 35, ../sass/_favorites.scss */
+/* line 41, ../sass/_favorites.scss */
 .favorites .favorites-container .favorite .desc {
   padding: 10px;
+  height: 230px;
+  overflow: hidden;
 }
-/* line 39, ../sass/_favorites.scss */
+/* line 47, ../sass/_favorites.scss */
 .favorites .favorites-container .favorite a {
   padding-left: 76px;
   color: #5b6565;
   font-weight: 700;
-}
-/* line 45, ../sass/_favorites.scss */
-.favorites .favorites-container .favorite p {
-  font-size: 0.95em;
-  width: 219px;
-  line-height: 21px;
-  font-weight: 400;
-  padding-left: 76px;
-  padding-top: 11px;
+  font-size: 0.9em;
 }
 /* line 54, ../sass/_favorites.scss */
+.favorites .favorites-container .favorite p {
+  font-size: 0.85em;
+  width: 280px;
+  line-height: 21px;
+  font-weight: 300;
+  padding-left: 76px;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+/* line 64, ../sass/_favorites.scss */
 .favorites .favorites-container .favorite time {
   position: absolute;
   bottom: 15px;
