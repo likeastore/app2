@@ -46,22 +46,22 @@ module.exports = function (grunt) {
 			src: {
 				files: ['source/**/*.js', '!source/build/app.js'],
 				tasks: ['jshint', 'browserify'],
-				options: {
-					livereload: true
-				}
+				// options: {
+				// 	livereload: true
+				// }
 			},
 			sass: {
 				files: 'source/sass/*.scss',
 				tasks: ['compass'],
-				options: {
-					livereload: true
-				}
+				// options: {
+				// 	livereload: true
+				// }
 			},
 			html: {
 				files: ['source/**/*.html', 'source/**/*.css'],
-				options: {
-					livereload: true
-				}
+				// options: {
+				// 	livereload: true
+				// }
 			}
 		},
 		htmlbuild: {
